@@ -1,0 +1,100 @@
+{
+  "version": 1,
+  "kind": "sprite-gen-request",
+  "engine": "component-row",
+  "character": {
+    "id": "karg-ironfang",
+    "description": "orc warrior with a two-handed axe, green skin, tusks, iron pauldron, red kilt",
+    "base_image": "base-source.png"
+  },
+  "cell": {
+    "shape": "square",
+    "width": 192,
+    "height": 192,
+    "safe_margin_x": 18,
+    "safe_margin_y": 18,
+    "size": 192,
+    "safe_margin": 18
+  },
+  "chroma_key": {
+    "name": "magenta",
+    "hex": "#FF00FF",
+    "rgb": [
+      255,
+      0,
+      255
+    ],
+    "selection": "auto",
+    "score": 203.83,
+    "min_subject_distance": 198.66,
+    "background": {
+      "mode": "transparent",
+      "opaque_border_fraction": 0.0,
+      "subject_pixels": 5499
+    },
+    "candidates": [
+      {
+        "name": "magenta",
+        "hex": "#FF00FF",
+        "score": 203.83,
+        "min_subject_distance": 198.66,
+        "clears_erase_radius": true
+      },
+      {
+        "name": "green",
+        "hex": "#00FF00",
+        "score": 160.01,
+        "min_subject_distance": 151.42,
+        "clears_erase_radius": true
+      },
+      {
+        "name": "cyan",
+        "hex": "#00FFFF",
+        "score": 194.32,
+        "min_subject_distance": 193.19,
+        "clears_erase_radius": true
+      },
+      {
+        "name": "blue",
+        "hex": "#004DFF",
+        "score": 169.24,
+        "min_subject_distance": 162.37,
+        "clears_erase_radius": true
+      }
+    ],
+    "selection_reason": "highest 1st-percentile subject distance among the 4 candidate(s) clearing the 96 erase radius"
+  },
+  "states": {
+    "idle": {
+      "frames": 8,
+      "fps": 8,
+      "loop": true,
+      "action": "breathing idle, axe held at rest, shoulders and head drift"
+    },
+    "walk": {
+      "frames": 8,
+      "fps": 12,
+      "loop": true,
+      "action": "heavy forward walk cycle, axe carried at the side"
+    },
+    "attack": {
+      "frames": 8,
+      "fps": 14,
+      "loop": false,
+      "action": "two-handed overhead axe chop: raise, load, release, strike, follow through, recover"
+    },
+    "roar": {
+      "frames": 8,
+      "fps": 10,
+      "loop": false,
+      "action": "war roar: lean back, jaw open, axe raised"
+    }
+  },
+  "style": "lively hand-painted cartoon, bold dark outline, saturated palette, warm rim light",
+  "layout": "taxonomy/v1",
+  "chroma": {
+    "mode": "rgb",
+    "unmix_reach": 4,
+    "spill_max_fraction": 0.005
+  }
+}

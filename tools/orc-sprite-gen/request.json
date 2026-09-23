@@ -1,0 +1,9 @@
+{
+  "states": {
+    "idle":   {"frames": 8, "fps": 8,  "loop": true,  "action": "breathing idle, axe held at rest, shoulders and head drift"},
+    "walk":   {"frames": 8, "fps": 12, "loop": true,  "action": "heavy forward walk cycle, axe carried at the side"},
+    "attack": {"frames": 8, "fps": 14, "loop": false, "action": "two-handed overhead axe chop: raise, load, release, strike, follow through, recover"},
+    "roar":   {"frames": 8, "fps": 10, "loop": false, "action": "war roar: lean back, jaw open, axe raised"}
+  },
+  "style": "lively hand-painted cartoon, bold dark outline, saturated palette, warm rim light"
+}
