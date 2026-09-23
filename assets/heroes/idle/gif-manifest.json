@@ -1,0 +1,564 @@
+{
+  "version": 1,
+  "kind": "sprite-gen-gif-run",
+  "run_dir": "/tmp/claude-0/-home-user-Screen-Translate-Overlay/1d91bdf8-7808-5cce-8b36-c7d1915cc429/scratchpad/heroes/anim_run",
+  "exports": [
+    {
+      "state": "arator",
+      "output": "/tmp/claude-0/-home-user-Screen-Translate-Overlay/1d91bdf8-7808-5cce-8b36-c7d1915cc429/scratchpad/heroes/anim_run/exports/arator.gif",
+      "frames": 18,
+      "fps": 4.0,
+      "loop": true,
+      "gif_report": {
+        "path": "/tmp/claude-0/-home-user-Screen-Translate-Overlay/1d91bdf8-7808-5cce-8b36-c7d1915cc429/scratchpad/heroes/anim_run/exports/arator.gif",
+        "frames": 18,
+        "delay_ticks": [
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25
+        ],
+        "loop": 0,
+        "transparent": true,
+        "disposal": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      "breathe": {
+        "config": {
+          "depth": 0.05,
+          "depth_x": null,
+          "breaths": 3,
+          "lag": 0.1,
+          "rigid_row": 71,
+          "axis_x": null,
+          "torso_half": null,
+          "anatomy": null
+        },
+        "phases": [
+          0.0,
+          0.16666666666666666,
+          0.3333333333333333,
+          0.5,
+          0.6666666666666666,
+          0.8333333333333334,
+          0.0,
+          0.16666666666666666,
+          0.3333333333333333,
+          0.5,
+          0.6666666666666666,
+          0.8333333333333334,
+          0.0,
+          0.16666666666666666,
+          0.3333333333333333,
+          0.5,
+          0.6666666666666666,
+          0.8333333333333334
+        ],
+        "resolved": {
+          "anatomy": {
+            "width": 184,
+            "height": 445,
+            "axis_x": 89,
+            "neck_row": 72,
+            "neck_source": "shoulder-gradient",
+            "rigid_row": 71,
+            "rigid_source": "manual",
+            "basis_row": 71,
+            "torso_half": 77,
+            "max_half": 94,
+            "torso_source": "auto",
+            "face": null,
+            "warnings": [
+              "rigid-row-override: auto 72 -> manual 71",
+              "neck-absent: 폭 프로파일에 병목이 없어 어깨-기울기로 대체했다 (정규화 기준은 강체 경계 71 사용)",
+              "face-absent: 대칭 눈쌍을 못 찾아 목만으로 경계를 정했다"
+            ]
+          },
+          "matches_sidecar": true,
+          "sidecar_drift": null,
+          "warnings": [
+            "face-absent: 대칭 눈쌍을 못 찾아 목만으로 경계를 정했다",
+            "neck-absent: 폭 프로파일에 병목이 없어 어깨-기울기로 대체했다 (정규화 기준은 강체 경계 71 사용)",
+            "rigid-row-override: auto 72 -> manual 71"
+          ]
+        }
+      }
+    },
+    {
+      "state": "baldin",
+      "output": "/tmp/claude-0/-home-user-Screen-Translate-Overlay/1d91bdf8-7808-5cce-8b36-c7d1915cc429/scratchpad/heroes/anim_run/exports/baldin.gif",
+      "frames": 18,
+      "fps": 4.0,
+      "loop": true,
+      "gif_report": {
+        "path": "/tmp/claude-0/-home-user-Screen-Translate-Overlay/1d91bdf8-7808-5cce-8b36-c7d1915cc429/scratchpad/heroes/anim_run/exports/baldin.gif",
+        "frames": 18,
+        "delay_ticks": [
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25
+        ],
+        "loop": 0,
+        "transparent": true,
+        "disposal": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      "breathe": {
+        "config": {
+          "depth": 0.045,
+          "depth_x": null,
+          "breaths": 3,
+          "lag": 0.1,
+          "rigid_row": 86,
+          "axis_x": null,
+          "torso_half": null,
+          "anatomy": null
+        },
+        "phases": [
+          0.0,
+          0.16666666666666666,
+          0.3333333333333333,
+          0.5,
+          0.6666666666666666,
+          0.8333333333333334,
+          0.0,
+          0.16666666666666666,
+          0.3333333333333333,
+          0.5,
+          0.6666666666666666,
+          0.8333333333333334,
+          0.0,
+          0.16666666666666666,
+          0.3333333333333333,
+          0.5,
+          0.6666666666666666,
+          0.8333333333333334
+        ],
+        "resolved": {
+          "anatomy": {
+            "width": 248,
+            "height": 328,
+            "axis_x": 115,
+            "neck_row": 212,
+            "neck_source": "bottleneck",
+            "rigid_row": 86,
+            "rigid_source": "manual",
+            "basis_row": 212,
+            "torso_half": 65,
+            "max_half": 132,
+            "torso_source": "auto",
+            "face": null,
+            "warnings": [
+              "rigid-row-override: auto 212 -> manual 86",
+              "face-absent: 대칭 눈쌍을 못 찾아 목만으로 경계를 정했다"
+            ]
+          },
+          "matches_sidecar": true,
+          "sidecar_drift": null,
+          "warnings": [
+            "face-absent: 대칭 눈쌍을 못 찾아 목만으로 경계를 정했다",
+            "rigid-row-override: auto 212 -> manual 86"
+          ]
+        }
+      }
+    },
+    {
+      "state": "faelas",
+      "output": "/tmp/claude-0/-home-user-Screen-Translate-Overlay/1d91bdf8-7808-5cce-8b36-c7d1915cc429/scratchpad/heroes/anim_run/exports/faelas.gif",
+      "frames": 18,
+      "fps": 4.0,
+      "loop": true,
+      "gif_report": {
+        "path": "/tmp/claude-0/-home-user-Screen-Translate-Overlay/1d91bdf8-7808-5cce-8b36-c7d1915cc429/scratchpad/heroes/anim_run/exports/faelas.gif",
+        "frames": 18,
+        "delay_ticks": [
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25
+        ],
+        "loop": 0,
+        "transparent": true,
+        "disposal": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      "breathe": {
+        "config": {
+          "depth": 0.05,
+          "depth_x": null,
+          "breaths": 3,
+          "lag": 0.1,
+          "rigid_row": 68,
+          "axis_x": null,
+          "torso_half": null,
+          "anatomy": null
+        },
+        "phases": [
+          0.0,
+          0.16666666666666666,
+          0.3333333333333333,
+          0.5,
+          0.6666666666666666,
+          0.8333333333333334,
+          0.0,
+          0.16666666666666666,
+          0.3333333333333333,
+          0.5,
+          0.6666666666666666,
+          0.8333333333333334,
+          0.0,
+          0.16666666666666666,
+          0.3333333333333333,
+          0.5,
+          0.6666666666666666,
+          0.8333333333333334
+        ],
+        "resolved": {
+          "anatomy": {
+            "width": 177,
+            "height": 455,
+            "axis_x": 76,
+            "neck_row": 239,
+            "neck_source": "bottleneck",
+            "rigid_row": 68,
+            "rigid_source": "manual",
+            "basis_row": 239,
+            "torso_half": 50,
+            "max_half": 100,
+            "torso_source": "auto",
+            "face": null,
+            "warnings": [
+              "rigid-row-override: auto 239 -> manual 68",
+              "face-absent: 대칭 눈쌍을 못 찾아 목만으로 경계를 정했다"
+            ]
+          },
+          "matches_sidecar": true,
+          "sidecar_drift": null,
+          "warnings": [
+            "face-absent: 대칭 눈쌍을 못 찾아 목만으로 경계를 정했다",
+            "rigid-row-override: auto 239 -> manual 68"
+          ]
+        }
+      }
+    },
+    {
+      "state": "mithrandir",
+      "output": "/tmp/claude-0/-home-user-Screen-Translate-Overlay/1d91bdf8-7808-5cce-8b36-c7d1915cc429/scratchpad/heroes/anim_run/exports/mithrandir.gif",
+      "frames": 18,
+      "fps": 4.0,
+      "loop": true,
+      "gif_report": {
+        "path": "/tmp/claude-0/-home-user-Screen-Translate-Overlay/1d91bdf8-7808-5cce-8b36-c7d1915cc429/scratchpad/heroes/anim_run/exports/mithrandir.gif",
+        "frames": 18,
+        "delay_ticks": [
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25
+        ],
+        "loop": 0,
+        "transparent": true,
+        "disposal": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      "breathe": {
+        "config": {
+          "depth": 0.055,
+          "depth_x": null,
+          "breaths": 3,
+          "lag": 0.1,
+          "rigid_row": 103,
+          "axis_x": null,
+          "torso_half": null,
+          "anatomy": null
+        },
+        "phases": [
+          0.0,
+          0.16666666666666666,
+          0.3333333333333333,
+          0.5,
+          0.6666666666666666,
+          0.8333333333333334,
+          0.0,
+          0.16666666666666666,
+          0.3333333333333333,
+          0.5,
+          0.6666666666666666,
+          0.8333333333333334,
+          0.0,
+          0.16666666666666666,
+          0.3333333333333333,
+          0.5,
+          0.6666666666666666,
+          0.8333333333333334
+        ],
+        "resolved": {
+          "anatomy": {
+            "width": 227,
+            "height": 467,
+            "axis_x": 107,
+            "neck_row": 96,
+            "neck_source": "bottleneck",
+            "rigid_row": 103,
+            "rigid_source": "manual",
+            "basis_row": 96,
+            "torso_half": 78,
+            "max_half": 119,
+            "torso_source": "auto",
+            "face": null,
+            "warnings": [
+              "rigid-row-override: auto 96 -> manual 103",
+              "face-absent: 대칭 눈쌍을 못 찾아 목만으로 경계를 정했다"
+            ]
+          },
+          "matches_sidecar": true,
+          "sidecar_drift": null,
+          "warnings": [
+            "face-absent: 대칭 눈쌍을 못 찾아 목만으로 경계를 정했다",
+            "rigid-row-override: auto 96 -> manual 103"
+          ]
+        }
+      }
+    },
+    {
+      "state": "peregrin",
+      "output": "/tmp/claude-0/-home-user-Screen-Translate-Overlay/1d91bdf8-7808-5cce-8b36-c7d1915cc429/scratchpad/heroes/anim_run/exports/peregrin.gif",
+      "frames": 18,
+      "fps": 4.0,
+      "loop": true,
+      "gif_report": {
+        "path": "/tmp/claude-0/-home-user-Screen-Translate-Overlay/1d91bdf8-7808-5cce-8b36-c7d1915cc429/scratchpad/heroes/anim_run/exports/peregrin.gif",
+        "frames": 18,
+        "delay_ticks": [
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25
+        ],
+        "loop": 0,
+        "transparent": true,
+        "disposal": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      "breathe": {
+        "config": {
+          "depth": 0.06,
+          "depth_x": null,
+          "breaths": 3,
+          "lag": 0.1,
+          "rigid_row": 70,
+          "axis_x": null,
+          "torso_half": null,
+          "anatomy": null
+        },
+        "phases": [
+          0.0,
+          0.16666666666666666,
+          0.3333333333333333,
+          0.5,
+          0.6666666666666666,
+          0.8333333333333334,
+          0.0,
+          0.16666666666666666,
+          0.3333333333333333,
+          0.5,
+          0.6666666666666666,
+          0.8333333333333334,
+          0.0,
+          0.16666666666666666,
+          0.3333333333333333,
+          0.5,
+          0.6666666666666666,
+          0.8333333333333334
+        ],
+        "resolved": {
+          "anatomy": {
+            "width": 148,
+            "height": 290,
+            "axis_x": 75,
+            "neck_row": 65,
+            "neck_source": "bottleneck",
+            "rigid_row": 70,
+            "rigid_source": "manual",
+            "basis_row": 65,
+            "torso_half": 60,
+            "max_half": 75,
+            "torso_source": "auto",
+            "face": null,
+            "warnings": [
+              "rigid-row-override: auto 65 -> manual 70",
+              "face-absent: 대칭 눈쌍을 못 찾아 목만으로 경계를 정했다"
+            ]
+          },
+          "matches_sidecar": true,
+          "sidecar_drift": null,
+          "warnings": [
+            "face-absent: 대칭 눈쌍을 못 찾아 목만으로 경계를 정했다",
+            "rigid-row-override: auto 65 -> manual 70"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,859 @@
+{
+  "characterId": ".anim_run.sg-staging",
+  "engine": "component-row",
+  "game_input": "sprite-sheet-alpha.png",
+  "degraded_static_fallback": false,
+  "curation_applied": true,
+  "frame_variant": "pixel",
+  "sprite_sheet_alpha": "sprite-sheet-alpha.png",
+  "sprite_sheet_alpha_report": "sprite-sheet-alpha.report.json",
+  "base_image": null,
+  "cell": {
+    "shape": "square",
+    "width": 512,
+    "height": 512,
+    "size": 512,
+    "safe_margin": 0
+  },
+  "chroma_key": {
+    "name": "magenta",
+    "hex": "#FF00FF",
+    "rgb": [
+      255,
+      0,
+      255
+    ]
+  },
+  "animation": {
+    "cellWidth": 512,
+    "cellHeight": 512,
+    "columns": 18,
+    "rows": {
+      "arator": {
+        "row": 0,
+        "frames": 18,
+        "fps": 4,
+        "durations_ms": [
+          250,
+          250,
+          250,
+          250,
+          250,
+          250,
+          250,
+          250,
+          250,
+          250,
+          250,
+          250,
+          250,
+          250,
+          250,
+          250,
+          250,
+          250
+        ],
+        "loop": true,
+        "frame_variant": "pixel",
+        "breathe": {
+          "anatomy": {
+            "width": 184,
+            "height": 445,
+            "axis_x": 89,
+            "neck_row": 72,
+            "neck_source": "shoulder-gradient",
+            "rigid_row": 71,
+            "rigid_source": "manual",
+            "basis_row": 71,
+            "torso_half": 77,
+            "max_half": 94,
+            "torso_source": "auto",
+            "face": null,
+            "warnings": [
+              "rigid-row-override: auto 72 -> manual 71",
+              "neck-absent: 폭 프로파일에 병목이 없어 어깨-기울기로 대체했다 (정규화 기준은 강체 경계 71 사용)",
+              "face-absent: 대칭 눈쌍을 못 찾아 목만으로 경계를 정했다"
+            ]
+          },
+          "matches_sidecar": true,
+          "sidecar_drift": null,
+          "warnings": [
+            "face-absent: 대칭 눈쌍을 못 찾아 목만으로 경계를 정했다",
+            "neck-absent: 폭 프로파일에 병목이 없어 어깨-기울기로 대체했다 (정규화 기준은 강체 경계 71 사용)",
+            "rigid-row-override: auto 72 -> manual 71"
+          ]
+        }
+      },
+      "baldin": {
+        "row": 1,
+        "frames": 18,
+        "fps": 4,
+        "durations_ms": [
+          250,
+          250,
+          250,
+          250,
+          250,
+          250,
+          250,
+          250,
+          250,
+          250,
+          250,
+          250,
+          250,
+          250,
+          250,
+          250,
+          250,
+          250
+        ],
+        "loop": true,
+        "frame_variant": "pixel",
+        "breathe": {
+          "anatomy": {
+            "width": 248,
+            "height": 328,
+            "axis_x": 115,
+            "neck_row": 212,
+            "neck_source": "bottleneck",
+            "rigid_row": 86,
+            "rigid_source": "manual",
+            "basis_row": 212,
+            "torso_half": 65,
+            "max_half": 132,
+            "torso_source": "auto",
+            "face": null,
+            "warnings": [
+              "rigid-row-override: auto 212 -> manual 86",
+              "face-absent: 대칭 눈쌍을 못 찾아 목만으로 경계를 정했다"
+            ]
+          },
+          "matches_sidecar": true,
+          "sidecar_drift": null,
+          "warnings": [
+            "face-absent: 대칭 눈쌍을 못 찾아 목만으로 경계를 정했다",
+            "rigid-row-override: auto 212 -> manual 86"
+          ]
+        }
+      },
+      "faelas": {
+        "row": 2,
+        "frames": 18,
+        "fps": 4,
+        "durations_ms": [
+          250,
+          250,
+          250,
+          250,
+          250,
+          250,
+          250,
+          250,
+          250,
+          250,
+          250,
+          250,
+          250,
+          250,
+          250,
+          250,
+          250,
+          250
+        ],
+        "loop": true,
+        "frame_variant": "pixel",
+        "breathe": {
+          "anatomy": {
+            "width": 177,
+            "height": 455,
+            "axis_x": 76,
+            "neck_row": 239,
+            "neck_source": "bottleneck",
+            "rigid_row": 68,
+            "rigid_source": "manual",
+            "basis_row": 239,
+            "torso_half": 50,
+            "max_half": 100,
+            "torso_source": "auto",
+            "face": null,
+            "warnings": [
+              "rigid-row-override: auto 239 -> manual 68",
+              "face-absent: 대칭 눈쌍을 못 찾아 목만으로 경계를 정했다"
+            ]
+          },
+          "matches_sidecar": true,
+          "sidecar_drift": null,
+          "warnings": [
+            "face-absent: 대칭 눈쌍을 못 찾아 목만으로 경계를 정했다",
+            "rigid-row-override: auto 239 -> manual 68"
+          ]
+        }
+      },
+      "mithrandir": {
+        "row": 3,
+        "frames": 18,
+        "fps": 4,
+        "durations_ms": [
+          250,
+          250,
+          250,
+          250,
+          250,
+          250,
+          250,
+          250,
+          250,
+          250,
+          250,
+          250,
+          250,
+          250,
+          250,
+          250,
+          250,
+          250
+        ],
+        "loop": true,
+        "frame_variant": "pixel",
+        "breathe": {
+          "anatomy": {
+            "width": 227,
+            "height": 467,
+            "axis_x": 107,
+            "neck_row": 96,
+            "neck_source": "bottleneck",
+            "rigid_row": 103,
+            "rigid_source": "manual",
+            "basis_row": 96,
+            "torso_half": 78,
+            "max_half": 119,
+            "torso_source": "auto",
+            "face": null,
+            "warnings": [
+              "rigid-row-override: auto 96 -> manual 103",
+              "face-absent: 대칭 눈쌍을 못 찾아 목만으로 경계를 정했다"
+            ]
+          },
+          "matches_sidecar": true,
+          "sidecar_drift": null,
+          "warnings": [
+            "face-absent: 대칭 눈쌍을 못 찾아 목만으로 경계를 정했다",
+            "rigid-row-override: auto 96 -> manual 103"
+          ]
+        }
+      },
+      "peregrin": {
+        "row": 4,
+        "frames": 18,
+        "fps": 4,
+        "durations_ms": [
+          250,
+          250,
+          250,
+          250,
+          250,
+          250,
+          250,
+          250,
+          250,
+          250,
+          250,
+          250,
+          250,
+          250,
+          250,
+          250,
+          250,
+          250
+        ],
+        "loop": true,
+        "frame_variant": "pixel",
+        "breathe": {
+          "anatomy": {
+            "width": 148,
+            "height": 290,
+            "axis_x": 75,
+            "neck_row": 65,
+            "neck_source": "bottleneck",
+            "rigid_row": 70,
+            "rigid_source": "manual",
+            "basis_row": 65,
+            "torso_half": 60,
+            "max_half": 75,
+            "torso_source": "auto",
+            "face": null,
+            "warnings": [
+              "rigid-row-override: auto 65 -> manual 70",
+              "face-absent: 대칭 눈쌍을 못 찾아 목만으로 경계를 정했다"
+            ]
+          },
+          "matches_sidecar": true,
+          "sidecar_drift": null,
+          "warnings": [
+            "face-absent: 대칭 눈쌍을 못 찾아 목만으로 경계를 정했다",
+            "rigid-row-override: auto 65 -> manual 70"
+          ]
+        }
+      }
+    }
+  },
+  "frame_layout": {
+    "sheetWidth": 9216,
+    "sheetHeight": 2560,
+    "cellWidth": 512,
+    "cellHeight": 512,
+    "rows": {
+      "arator": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 512,
+          "y": 0,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 1024,
+          "y": 0,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 1536,
+          "y": 0,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 2048,
+          "y": 0,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 2560,
+          "y": 0,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 3072,
+          "y": 0,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 3584,
+          "y": 0,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 4096,
+          "y": 0,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 4608,
+          "y": 0,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 5120,
+          "y": 0,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 5632,
+          "y": 0,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 6144,
+          "y": 0,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 6656,
+          "y": 0,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 7168,
+          "y": 0,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 7680,
+          "y": 0,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 8192,
+          "y": 0,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 8704,
+          "y": 0,
+          "w": 512,
+          "h": 512
+        }
+      ],
+      "baldin": [
+        {
+          "x": 0,
+          "y": 512,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 512,
+          "y": 512,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 1024,
+          "y": 512,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 1536,
+          "y": 512,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 2048,
+          "y": 512,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 2560,
+          "y": 512,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 3072,
+          "y": 512,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 3584,
+          "y": 512,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 4096,
+          "y": 512,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 4608,
+          "y": 512,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 5120,
+          "y": 512,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 5632,
+          "y": 512,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 6144,
+          "y": 512,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 6656,
+          "y": 512,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 7168,
+          "y": 512,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 7680,
+          "y": 512,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 8192,
+          "y": 512,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 8704,
+          "y": 512,
+          "w": 512,
+          "h": 512
+        }
+      ],
+      "faelas": [
+        {
+          "x": 0,
+          "y": 1024,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 512,
+          "y": 1024,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 1024,
+          "y": 1024,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 1536,
+          "y": 1024,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 2048,
+          "y": 1024,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 2560,
+          "y": 1024,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 3072,
+          "y": 1024,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 3584,
+          "y": 1024,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 4096,
+          "y": 1024,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 4608,
+          "y": 1024,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 5120,
+          "y": 1024,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 5632,
+          "y": 1024,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 6144,
+          "y": 1024,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 6656,
+          "y": 1024,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 7168,
+          "y": 1024,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 7680,
+          "y": 1024,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 8192,
+          "y": 1024,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 8704,
+          "y": 1024,
+          "w": 512,
+          "h": 512
+        }
+      ],
+      "mithrandir": [
+        {
+          "x": 0,
+          "y": 1536,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 512,
+          "y": 1536,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 1024,
+          "y": 1536,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 1536,
+          "y": 1536,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 2048,
+          "y": 1536,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 2560,
+          "y": 1536,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 3072,
+          "y": 1536,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 3584,
+          "y": 1536,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 4096,
+          "y": 1536,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 4608,
+          "y": 1536,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 5120,
+          "y": 1536,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 5632,
+          "y": 1536,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 6144,
+          "y": 1536,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 6656,
+          "y": 1536,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 7168,
+          "y": 1536,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 7680,
+          "y": 1536,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 8192,
+          "y": 1536,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 8704,
+          "y": 1536,
+          "w": 512,
+          "h": 512
+        }
+      ],
+      "peregrin": [
+        {
+          "x": 0,
+          "y": 2048,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 512,
+          "y": 2048,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 1024,
+          "y": 2048,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 1536,
+          "y": 2048,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 2048,
+          "y": 2048,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 2560,
+          "y": 2048,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 3072,
+          "y": 2048,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 3584,
+          "y": 2048,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 4096,
+          "y": 2048,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 4608,
+          "y": 2048,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 5120,
+          "y": 2048,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 5632,
+          "y": 2048,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 6144,
+          "y": 2048,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 6656,
+          "y": 2048,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 7168,
+          "y": 2048,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 7680,
+          "y": 2048,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 8192,
+          "y": 2048,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 8704,
+          "y": 2048,
+          "w": 512,
+          "h": 512
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "kind": "sprite-gen-curation",
+  "states": {
+    "mithrandir": {
+      "breathe": {
+        "depth": 0.055,
+        "breaths": 3,
+        "lag": 0.1,
+        "rigid_row": 103
+      },
+      "revision": [
+        "688404100b8d"
+      ]
+    },
+    "faelas": {
+      "breathe": {
+        "depth": 0.05,
+        "breaths": 3,
+        "lag": 0.1,
+        "rigid_row": 68
+      },
+      "revision": [
+        "933f289d6cd3"
+      ]
+    },
+    "arator": {
+      "breathe": {
+        "depth": 0.05,
+        "breaths": 3,
+        "lag": 0.1,
+        "rigid_row": 71
+      },
+      "revision": [
+        "b41088389b37"
+      ]
+    },
+    "baldin": {
+      "breathe": {
+        "depth": 0.045,
+        "breaths": 3,
+        "lag": 0.1,
+        "rigid_row": 86
+      },
+      "revision": [
+        "4747a48e3a5e"
+      ]
+    },
+    "peregrin": {
+      "breathe": {
+        "depth": 0.06,
+        "breaths": 3,
+        "lag": 0.1,
+        "rigid_row": 70
+      },
+      "revision": [
+        "774f4ac7452e"
+      ]
+    }
+  },
+  "run_revision": "5122123c9b782076"
+}
