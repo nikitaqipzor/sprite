@@ -1,0 +1,100 @@
+{
+  "version": 1,
+  "kind": "sprite-gen-request",
+  "engine": "component-row",
+  "character": {
+    "id": "archer",
+    "description": "hooded elf ranger with a longbow and a back quiver",
+    "base_image": "base-source.png"
+  },
+  "cell": {
+    "shape": "square",
+    "width": 192,
+    "height": 192,
+    "safe_margin_x": 18,
+    "safe_margin_y": 18,
+    "size": 192,
+    "safe_margin": 18
+  },
+  "chroma_key": {
+    "name": "magenta",
+    "hex": "#FF00FF",
+    "rgb": [
+      255,
+      0,
+      255
+    ],
+    "selection": "auto",
+    "score": 212.06,
+    "min_subject_distance": 207.86,
+    "background": {
+      "mode": "transparent",
+      "opaque_border_fraction": 0.0,
+      "subject_pixels": 5325
+    },
+    "candidates": [
+      {
+        "name": "magenta",
+        "hex": "#FF00FF",
+        "score": 212.06,
+        "min_subject_distance": 207.86,
+        "clears_erase_radius": true
+      },
+      {
+        "name": "green",
+        "hex": "#00FF00",
+        "score": 189.44,
+        "min_subject_distance": 186.1,
+        "clears_erase_radius": true
+      },
+      {
+        "name": "cyan",
+        "hex": "#00FFFF",
+        "score": 199.49,
+        "min_subject_distance": 163.19,
+        "clears_erase_radius": true
+      },
+      {
+        "name": "blue",
+        "hex": "#004DFF",
+        "score": 196.07,
+        "min_subject_distance": 185.91,
+        "clears_erase_radius": true
+      }
+    ],
+    "selection_reason": "highest 1st-percentile subject distance among the 4 candidate(s) clearing the 96 erase radius"
+  },
+  "states": {
+    "idle": {
+      "frames": 8,
+      "fps": 8,
+      "loop": true,
+      "action": "idle cycle"
+    },
+    "walk": {
+      "frames": 8,
+      "fps": 12,
+      "loop": true,
+      "action": "walk cycle"
+    },
+    "run": {
+      "frames": 8,
+      "fps": 16,
+      "loop": true,
+      "action": "run cycle"
+    },
+    "shoot": {
+      "frames": 8,
+      "fps": 14,
+      "loop": false,
+      "action": "shoot sequence"
+    }
+  },
+  "style": "hand-painted cartoon sprite, bold dark outline, warm rim light",
+  "layout": "taxonomy/v1",
+  "chroma": {
+    "mode": "rgb",
+    "unmix_reach": 4,
+    "spill_max_fraction": 0.005
+  }
+}

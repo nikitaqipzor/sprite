@@ -1,0 +1,100 @@
+{
+  "version": 1,
+  "kind": "sprite-gen-request",
+  "engine": "component-row",
+  "character": {
+    "id": "knight",
+    "description": "plate knight with arming sword and kite shield, red plume and cloak",
+    "base_image": "base-source.png"
+  },
+  "cell": {
+    "shape": "square",
+    "width": 192,
+    "height": 192,
+    "safe_margin_x": 18,
+    "safe_margin_y": 18,
+    "size": 192,
+    "safe_margin": 18
+  },
+  "chroma_key": {
+    "name": "green",
+    "hex": "#00FF00",
+    "rgb": [
+      0,
+      255,
+      0
+    ],
+    "selection": "auto",
+    "score": 212.04,
+    "min_subject_distance": 210.69,
+    "background": {
+      "mode": "transparent",
+      "opaque_border_fraction": 0.0,
+      "subject_pixels": 5710
+    },
+    "candidates": [
+      {
+        "name": "magenta",
+        "hex": "#FF00FF",
+        "score": 206.93,
+        "min_subject_distance": 196.62,
+        "clears_erase_radius": true
+      },
+      {
+        "name": "green",
+        "hex": "#00FF00",
+        "score": 212.04,
+        "min_subject_distance": 210.69,
+        "clears_erase_radius": true
+      },
+      {
+        "name": "cyan",
+        "hex": "#00FFFF",
+        "score": 194.04,
+        "min_subject_distance": 191.78,
+        "clears_erase_radius": true
+      },
+      {
+        "name": "blue",
+        "hex": "#004DFF",
+        "score": 167.13,
+        "min_subject_distance": 163.6,
+        "clears_erase_radius": true
+      }
+    ],
+    "selection_reason": "highest 1st-percentile subject distance among the 4 candidate(s) clearing the 96 erase radius"
+  },
+  "states": {
+    "idle": {
+      "frames": 8,
+      "fps": 8,
+      "loop": true,
+      "action": "idle cycle"
+    },
+    "walk": {
+      "frames": 8,
+      "fps": 12,
+      "loop": true,
+      "action": "walk cycle"
+    },
+    "run": {
+      "frames": 8,
+      "fps": 16,
+      "loop": true,
+      "action": "run cycle"
+    },
+    "attack": {
+      "frames": 8,
+      "fps": 14,
+      "loop": false,
+      "action": "attack sequence"
+    }
+  },
+  "style": "hand-painted cartoon sprite, bold dark outline, warm rim light",
+  "layout": "taxonomy/v1",
+  "chroma": {
+    "mode": "rgb",
+    "unmix_reach": 4,
+    "spill_max_fraction": 0.005
+  }
+}

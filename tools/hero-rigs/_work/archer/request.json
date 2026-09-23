@@ -1,0 +1,29 @@
+{
+  "states": {
+    "idle": {
+      "frames": 8,
+      "fps": 8,
+      "loop": true,
+      "action": "idle cycle"
+    },
+    "walk": {
+      "frames": 8,
+      "fps": 12,
+      "loop": true,
+      "action": "walk cycle"
+    },
+    "run": {
+      "frames": 8,
+      "fps": 16,
+      "loop": true,
+      "action": "run cycle"
+    },
+    "shoot": {
+      "frames": 8,
+      "fps": 14,
+      "loop": false,
+      "action": "shoot sequence"
+    }
+  },
+  "style": "hand-painted cartoon sprite, bold dark outline, warm rim light"
+}

@@ -1,0 +1,139 @@
+{
+  "version": 1,
+  "kind": "sprite-gen-gif-run",
+  "run_dir": "/home/user/Screen-Translate-Overlay/tools/hero-rigs/_work/knight/run",
+  "exports": [
+    {
+      "state": "idle",
+      "output": "/home/user/Screen-Translate-Overlay/tools/hero-rigs/_work/knight/run/exports/idle.gif",
+      "frames": 8,
+      "fps": 8.0,
+      "loop": true,
+      "gif_report": {
+        "path": "/home/user/Screen-Translate-Overlay/tools/hero-rigs/_work/knight/run/exports/idle.gif",
+        "frames": 8,
+        "delay_ticks": [
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
+        "loop": 0,
+        "transparent": true,
+        "disposal": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "state": "walk",
+      "output": "/home/user/Screen-Translate-Overlay/tools/hero-rigs/_work/knight/run/exports/walk.gif",
+      "frames": 8,
+      "fps": 12.0,
+      "loop": true,
+      "gif_report": {
+        "path": "/home/user/Screen-Translate-Overlay/tools/hero-rigs/_work/knight/run/exports/walk.gif",
+        "frames": 8,
+        "delay_ticks": [
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "loop": 0,
+        "transparent": true,
+        "disposal": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "state": "run",
+      "output": "/home/user/Screen-Translate-Overlay/tools/hero-rigs/_work/knight/run/exports/run.gif",
+      "frames": 8,
+      "fps": 16.0,
+      "loop": true,
+      "gif_report": {
+        "path": "/home/user/Screen-Translate-Overlay/tools/hero-rigs/_work/knight/run/exports/run.gif",
+        "frames": 8,
+        "delay_ticks": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
+        "loop": 0,
+        "transparent": true,
+        "disposal": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "state": "attack",
+      "output": "/home/user/Screen-Translate-Overlay/tools/hero-rigs/_work/knight/run/exports/attack.gif",
+      "frames": 8,
+      "fps": 14.0,
+      "loop": false,
+      "gif_report": {
+        "path": "/home/user/Screen-Translate-Overlay/tools/hero-rigs/_work/knight/run/exports/attack.gif",
+        "frames": 8,
+        "delay_ticks": [
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
+        "loop": 0,
+        "transparent": true,
+        "disposal": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      }
+    }
+  ]
+}
